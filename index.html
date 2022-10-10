@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <header class="header"><h1>Tripart - სასუქის ცხრილი</h1></header>
+     <!-- კონტეინერი -->
+    <div class="container">
+        <!-- მცენარის მდგომარეობა-->
+            <p class="p-name">Tripart <br> ცხრილი</p>
+            <p class="p-name">პირველი <br> ფესვები</p>
+            <p class="p-name">პირველი <br> ფოთლები</p>
+            <p class="p-name">ზრდა</p>
+            <p class="p-name">გარდაქმნა</p>
+            <p class="p-name">ყვავილობა</p>
+            <p class="p-name">მწიფობა</p>
+            <p class="p-name">ჩარეცხვა</p>
+        <!-- პარაგრაფი გროუ-->
+            <p class="p-grow">Tripart Grow</p>
+            <p class="p-grow">0.2 მ/ლ</p>
+            <p class="p-grow">0.6 მ/ლ</p>
+            <p class="p-grow">1.5 მ/ლ</p>
+            <p class="p-grow">1.5 მ/ლ</p>
+            <p class="p-grow">0.7 მ/ლ</p>
+            <p class="p-grow">---</p>
+            <p class="p-grow">---</p>
+        <!-- პარაგრაფი მიკრო-->    
+            <p class="p-micro">Tripart Micro</p>
+            <p class="p-micro">0.2 მ/ლ</p>
+            <p class="p-micro">0.6 მ/ლ</p>
+            <p class="p-micro">1 მ/ლ</p>
+            <p class="p-micro">1.5 მ/ლ</p>
+            <p class="p-micro">1.4 მ/ლ</p>
+            <p class="p-micro">---</p>
+            <p class="p-micro">---</p>
+        <!-- პარაგრაფი ბლუმი-->    
+            <p class="p-bloom">Tripart Bloom</p>
+            <p class="p-bloom">0.2 მ/ლ</p>
+            <p class="p-bloom">0.6 მ/ლ</p>
+            <p class="p-bloom">0.5 მ/ლ</p>
+            <p class="p-bloom">1 მ/ლ</p>
+            <p class="p-bloom">2.1 მ/ლ</p>
+            <p class="p-bloom">---</p>
+            <p class="p-bloom">---</p>
+        <!-- პარაგრაფი ტდს-->    
+            <p class="p-tds">TDS</p>
+            <p class="p-tds">0.2 - 0.5</p>
+            <p class="p-tds">0.6 - 1.0</p>
+            <p class="p-tds">1.1 - 1.6</p>
+            <p class="p-tds">1.4 - 1.8</p>
+            <p class="p-tds">1.3 - 1.7</p>
+            <p class="p-tds">1.3 - 2.0</p>
+            <p class="p-tds">---</p>
+        </div> 
+    <!-- ინფუთი ბათონი სელექტორი -->
+       <div class="result-div">
+           <h2 class="h2-div">ჩაწერეთ წყლის რაოდენობა</h3>
+           <input type="number" name="input-ml" id="input-ml" value="inputvalue" required>
+
+           <h2 class="h2-div">აირჩიეთ მცენარის მდგომარეობა</h2>
+           <select id="selectorid" name="selectname">
+            <option value="val"> ..... </option>
+            <option value="val1"> პირველი ფესვები </option>
+            <option value="val2"> პირველი ფოთლები </option>
+            <option value="val3"> ზრდა </option>
+            <option value="val4"> გარდაქმნა </option>
+            <option value="val5"> ყვავილობა </option>
+        </select>
+        <button type="submit" id="submit-btn" onclick="getValueFunction()">გამოთვლა</button>
+        <h3 class="result-text" id="result-grow"></h3>
+        <h3 class="result-text" id="result-micro"></h3>
+        <h3 class="result-text" id="result-bloom"></h3>
+        
+
+
+
+
+
+  </div>
+
+
+<script src="/main.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+

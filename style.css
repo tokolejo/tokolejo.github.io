@@ -1,0 +1,88 @@
+.header{
+    text-align: center;
+}
+.container { 
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 3px 2px; 
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    
+} 
+
+.p-name, .p-tds {
+    background-color: rgb(154, 145, 240);
+}
+
+.p-grow {
+    background-color: green;
+}
+
+.p-micro {
+    background-color: rgb(94, 70, 202);
+}
+
+.p-bloom {
+    background-color: red;
+}
+
+#input-ml{
+    border: 3px solid green;
+    border-radius:10px;
+    width: 40px;
+    height: 20px;
+}
+#input-ml:hover{
+    border: 3px solid rgb(129, 211, 129);
+    border-radius:10px;
+    width: 40px;
+    height: 20px;
+}
+
+#submit-btn{
+    border: 3px solid green;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#submit-btn:hover{
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid rgb(129, 211, 129);
+
+}
+
+.result-text {
+    border-radius: 10px;
+    font-size: xx-large;
+
+}
+
+.result-div{
+    width: auto;
+    height:  150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#selector{
+    display: inline;
+    border: 3px solid green;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+
+
