@@ -66,12 +66,6 @@ const getValueFunction = function() {
         resultmicro.innerHTML = inputValueNumber * flowering.Micro + ' მ/ლ '+' Tripart Micro ';
         resultbloom.innerHTML = inputValueNumber * flowering.Bloom + ' მ/ლ '+' Tripart Bloom ';
     }
-
-
-    else{
-        result.innerHTML = "აირჩიეთ სასურველი წყლის რაოდენობა ასევე მცენარის მდგომარეობა"
-    };
-
 }
 
 
