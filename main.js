@@ -2,9 +2,12 @@
 const resultgrow = document.getElementById('result-grow');
 const resultmicro = document.getElementById('result-micro');
 const resultbloom = document.getElementById('result-bloom');
-
-//Create array of options to be added
-const array = ["პირველი ფესვები","პირველი ფოთლები","ზრდა","გარდაქმნა","ყვავილობა",];
+const result = document.getElementById('result');
+let button = document.getElementById('submit-btn');
+    button.addEventListener('click', function() {
+        getValueFunction();
+        
+    });
 //selector
 const selector = document.getElementById('selectorid')
 // arrays of tripart fert by perdiod.
@@ -67,8 +70,3 @@ const getValueFunction = function() {
         resultbloom.innerHTML = inputValueNumber * flowering.Bloom + ' მ/ლ '+' Tripart Bloom ';
     }
 }
-
-
-
-
- 
