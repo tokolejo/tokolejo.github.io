@@ -3,14 +3,13 @@ const resultgrow = document.getElementById('result-grow');
 const resultmicro = document.getElementById('result-micro');
 const resultbloom = document.getElementById('result-bloom');
 const result = document.getElementById('result');
-let button = document.getElementById('submit-btn');
-    button.addEventListener('click', function() {
-        getValueFunction();
-        
-    });
+const button = document.getElementById('submit-btn').onclick = () => {
+    getValueFunction();
+}
 //selector
 const selector = document.getElementById('selectorid')
-// arrays of tripart fert by perdiod.
+
+// arrays of tripart fert
 const firstRoot = {
     Grow: 0.2,
     Micro: 0.2,
@@ -70,3 +69,4 @@ const getValueFunction = function() {
         resultbloom.innerHTML = inputValueNumber * flowering.Bloom + ' მ/ლ '+' Tripart Bloom ';
     }
 }
+

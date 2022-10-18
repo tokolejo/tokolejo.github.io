@@ -12,15 +12,15 @@ body{
     text-align: center;
 }
 .p-name, .p-tds {
-    background-color: rgb(154, 145, 240);
+    background-color: rgb(183, 176, 245);
 }
 
 .p-grow {
-    background-color: green;
+    background-color: rgb(155, 229, 155);
 }
 
 .p-micro {
-    background-color: rgb(94, 70, 202);
+    background-color: rgb(74, 47, 197);
 }
 
 .p-bloom {
@@ -75,12 +75,21 @@ body{
 
 }
 
-/* table borders */
-#tripart-table, th, td {
+/* Table Style */
+#tripart-table {
+    border: 3px solid black;
+    color: black;
+}
+th, td {
     border:  2px solid rgb(218, 12, 12);
+    text-align: center;
+}
+th:hover, td:hover {
+    border:  3px solid rgb(25, 161, 36);
     text-align: center;
 }
 
 th,td { 
-    width: 100vh
+    width: 100vh;
 }
+
